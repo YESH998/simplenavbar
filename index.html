@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: burlywood;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: aqua;
+            /* background-image: linear-gradient(aqua ,gray); */
+            background-image: linear-gradient(to right, aqua, rgba(255, 0, 0, 1));
+            height: 80px;
+            align-items: center;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 2.5rem;
+            color: black;
+        }
+        span{
+            font-size: 2rem;
+            color: rgb(49, 47, 47);
+            margin-left: 40px;
+        }
+        input{
+            padding: 10px;
+            padding-left: 40px;
+            padding-right: 40px;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <nav>
+                <ul>
+                    <li><a href="###">Home</a></li>
+                    <li><a href="###">News</a></li>
+                    <li><a href="###">Contact</a></li>
+                    <li><a href="###">About</a></li>
+                    <li><input type="text" placeholder="Shoes"><span>Search</span></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>
